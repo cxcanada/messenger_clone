@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106954622534",
+    "project_id": "messengerclone-ce3a0",
+    "storage_bucket": "messengerclone-ce3a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106954622534:android:97eeecde62c091a02dac47",
+        "android_client_info": {
+          "package_name": "com.example.flutter_messenger_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106954622534-ecgrki03pcojihs26nfa85j0v5nuc215.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdjhG1FZ-OAFvb5hMDMQJua4fLvHkbm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106954622534-ecgrki03pcojihs26nfa85j0v5nuc215.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
