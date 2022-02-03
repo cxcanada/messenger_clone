@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_messenger_clone/services/auth.dart';
 import 'package:flutter_messenger_clone/views/signin.dart';
@@ -29,6 +31,35 @@ class _HomeState extends State<Home> {
             ),
           )
         ],
+      ),
+      body: Container(
+        margin: EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 16),
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.grey,
+                  width: 1.5,
+                  style: BorderStyle.solid,
+                ),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                      child: TextField(
+                    decoration: InputDecoration(
+                        border: InputBorder.none, hintText: "Username"),
+                  )),
+                  Icon(Icons.search)
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
